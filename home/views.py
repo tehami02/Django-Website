@@ -17,6 +17,9 @@ def cart(request):
 def cloth(request):
     return render(request, 'cloth.html')
 
+def myaccount(request):
+     # return HttpResponse("this is your account")
+
 def void(request):
       return render(request, 'void.html')
     # return HttpResponse("this is void")
