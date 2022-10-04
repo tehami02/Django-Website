@@ -9,4 +9,5 @@ urlpatterns = [
    path("cart/", views.cart , name='cart'),
    path("cloth/", views.cloth , name='cloth'),
    path("next/", include('home.more')),
+   path("myaccount/", views.myaccount, name='myaccount'),
 ]
